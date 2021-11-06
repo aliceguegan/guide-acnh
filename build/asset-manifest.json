@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/guide-acnh/static/css/main.0b54db73.chunk.css",
+    "main.js": "/guide-acnh/static/js/main.085924c1.chunk.js",
+    "main.js.map": "/guide-acnh/static/js/main.085924c1.chunk.js.map",
+    "runtime-main.js": "/guide-acnh/static/js/runtime-main.2f9a41cd.js",
+    "runtime-main.js.map": "/guide-acnh/static/js/runtime-main.2f9a41cd.js.map",
+    "static/js/2.75e9a6d2.chunk.js": "/guide-acnh/static/js/2.75e9a6d2.chunk.js",
+    "static/js/2.75e9a6d2.chunk.js.map": "/guide-acnh/static/js/2.75e9a6d2.chunk.js.map",
+    "static/js/3.a6215160.chunk.js": "/guide-acnh/static/js/3.a6215160.chunk.js",
+    "static/js/3.a6215160.chunk.js.map": "/guide-acnh/static/js/3.a6215160.chunk.js.map",
+    "index.html": "/guide-acnh/index.html",
+    "static/css/main.0b54db73.chunk.css.map": "/guide-acnh/static/css/main.0b54db73.chunk.css.map",
+    "static/js/2.75e9a6d2.chunk.js.LICENSE.txt": "/guide-acnh/static/js/2.75e9a6d2.chunk.js.LICENSE.txt",
+    "static/media/Logo-acnh2.1cfb1ea7.png": "/guide-acnh/static/media/Logo-acnh2.1cfb1ea7.png",
+    "static/media/art-example.640099fb.png": "/guide-acnh/static/media/art-example.640099fb.png",
+    "static/media/bug-example.b5bd10ab.png": "/guide-acnh/static/media/bug-example.b5bd10ab.png",
+    "static/media/fish-exemple.a51f251e.png": "/guide-acnh/static/media/fish-exemple.a51f251e.png",
+    "static/media/fossil-example.f798d6a2.png": "/guide-acnh/static/media/fossil-example.f798d6a2.png",
+    "static/media/meli-melo.827c72cf.png": "/guide-acnh/static/media/meli-melo.827c72cf.png",
+    "static/media/sea-example.47d508ea.png": "/guide-acnh/static/media/sea-example.47d508ea.png",
+    "static/media/villager-example.71e4976f.png": "/guide-acnh/static/media/villager-example.71e4976f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f9a41cd.js",
+    "static/js/2.75e9a6d2.chunk.js",
+    "static/css/main.0b54db73.chunk.css",
+    "static/js/main.085924c1.chunk.js"
+  ]
+}

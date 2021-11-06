@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+    font-weight: 400;
+  }
+  
+  body{
+    background-color: #def5f3;
+  }
+  
+  /*MENU*/
+  
+  nav{
+    position: fixed;
+    top: 30px;
+    left: 40px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 5px #BBB;
+    background-color: #ffb9b7;
+    z-index: 5;
+  }
+  
+  nav button{
+    width: 120px;
+    height: 50px;
+    font-size: 1.1em;
+    font-weight: 400;
+    text-transform: uppercase;
+    background-color: #ffb9b7;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+  }
+  
+  nav button:hover{
+    color: #333;
+    cursor: pointer;
+  }
+  
+  #menu{
+    display: none;
+    position: relative;
+    width: 120px;
+    padding: 0px 0px 15px 15px;
+    background-color: #ffb9b7;
+    border-radius: 30px;
+  }
+  
+  #menu ul li{
+    list-style-type: none;
+    line-height: 1.5em;
+  }
+  
+  #menu ul li{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+  }
+  
+  #menu ul li:hover{
+    cursor: pointer;
+    color: #333;
+    font-weight: 400;
+  }
+  
+  /*HEADER*/
+  
+  #header{
+    text-align: center;
+    background-color: #fcf8ee;
+    box-shadow: 0px 0px 10px #BBB;
+  }
+  
+  #logo-index{
+    width: 300px;
+    margin-left: 20px;
+    opacity: 95%;
+  }
+  
+  #main-title{
+    display: inline-block;
+    width: 300px;
+    margin-left: 20px;
+    vertical-align: 50px;
+    font-size: 3em;
+    font-weight: 300;
+    line-height: 0.9em;
+    text-transform: uppercase;
+    text-align: left;
+    text-shadow: 2px 2px 0px #fff;
+  }
+  
+  /*CONTENU INDEX*/
+  
+  #explore{
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0px 10px 0px;
+  }
+  
+  #main{
+    display: flex;
+    flex-flow: row wrap;
+    width: 90%;
+    margin: 0 auto;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .container{
+    width: 130px;
+    background-color: #fcf8ee;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 1px 1px 8px #BBB;
+    transition: all 500ms;
+  }
+  
+  .container img{
+    height: 60px;
+    padding-bottom: 10px;
+  }
+  
+  .sea img{
+    height: 50px;
+  }
+  
+  .container img, .container h3{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.1em;
+    line-height: 1em;
+  }
+  
+  .container a{
+    text-decoration: none;
+  }
+  
+  .container:hover{
+    transform: scale(1.2);
+  }
+  
+  .container:hover h3{
+    color: #5ebfba;
+  }
+  
+  /*CONTENU PAGES*/
+  
+  .pagetitle{
+    text-align: center;
+    margin: 50px 0px 30px 0px;
+    font-size: 2.3em;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0px #fff;
+  }
+  
+  #tri{
+    width: 60%;
+    margin: 0 auto;
+    text-align: right;
+    position: relative;
+  }
+  
+  #tri-label{
+    font-size: 0.8em;
+    padding-right: 10px;
+  }
+  
+  #select{
+    position: relative;
+    display: inline;
+    width: 110%;
+    background-color: transparent;
+    overflow: hidden;
+  }
+  
+  #trier-par{
+    appearance: none;
+    height: auto;
+      border: 1px solid #BBB;
+    background-color: #f7f7f7;
+      margin: 0;
+      padding: 4px 30px 4px 4px;
+      border-radius: 4px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  }
+  
+  #select::after{
+    content: '';
+      position: absolute;
+      top: 60%; 
+      margin-top: -3px;
+      right: .75em;  
+      display: block; 
+      width: 0;
+    height: 0;
+      border-color: transparent;
+      border-top-color: #444; 
+      border-width: 6px;
+      border-style: solid;
+      pointer-events: none;
+  }
+  
+  #items{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  
+  .element{
+    width: 160px;
+    font-size: 0.8em;
+    margin: 10px;
+    background-color: #fcf8ee;
+    border-radius: 30px;
+    transition: all 500ms;
+    box-shadow: 1px 1px 8px #BBB;
+  }
+  
+  .fish-photo, .sea-photo, .bug-photo{
+    width: 100%;
+    padding-top: 5px;
+  }
+  
+  .fossil-photo, .art-photo{
+    display: block;
+    margin: 5px auto;
+    height: 128px;
+  }
+  
+  .villager-photo{
+    display: block;
+    width: 80%;
+    margin: 15px auto 5px auto;
+    border-radius: 40%;
+  }
+  
+  .name{
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+    overflow-wrap: break-word;
+  }
+  
+  .infos{
+    padding: 0px 5px 20px 10px;
+  }
+  
+  .bold{
+    font-weight: 600;
+  }
+  
+  .element:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 10px #000;
+  }
+  
+  .element:hover .name{
+    color: #5ebfba;
+  }
+  
+  
+  /*FOOTER*/
+  
+  #footer{
+    margin: 30px;
+  }
+  
+  #melimelo{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    filter: saturate(50%);
+    opacity: 95%;
+  }
+  
+  #footer p{
+    text-align: center;
+    font-size: 0.9em;
+    font-style: italic;
+    font-weight: 200;
+  }
+  
+  
+  
+  @media screen and (max-width: 700px){
+    nav{
+      top: 15px;
+      left: 15px;
+      position: absolute;
+    }
+    nav button, #menu{
+      width: 100px;
+      font-size: 1em;
+    }
+  
+    #menu{
+      padding: 0px 0px 15px 10px;
+    }
+  
+    #menu ul li a{
+      font-size: 0.9em;
+    }
+  
+    #logo-index{
+      width: 230px;
+      margin: 0 auto;
+    }
+  
+    #main-title{
+      display: block;
+      width: 300px;
+      text-align: center;
+      font-size: 2em;
+      margin: 0 auto;
+      padding-bottom: 30px;
+    }
+  
+    .container{
+      margin: 10px;
+    }
+  
+    .pagetitle{
+      font-size: 1.8em;
+      margin-top: 75px;
+    }
+  
+    #items{
+      width: 90%;
+    }
+  
+    .element{
+      width: 150px;
+    }
+  }
